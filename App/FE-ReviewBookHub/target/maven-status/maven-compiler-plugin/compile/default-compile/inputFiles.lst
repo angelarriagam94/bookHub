@@ -1,0 +1,16 @@
+E:\Proyecto\Review BookHub\App\FE-ReviewBookHub\src\main\java\com\ReviewBookHub\Client\AuthClient.java
+E:\Proyecto\Review BookHub\App\FE-ReviewBookHub\src\main\java\com\ReviewBookHub\Client\CategoriaClient.java
+E:\Proyecto\Review BookHub\App\FE-ReviewBookHub\src\main\java\com\ReviewBookHub\Client\LibroClient.java
+E:\Proyecto\Review BookHub\App\FE-ReviewBookHub\src\main\java\com\ReviewBookHub\Client\ResenaClient.java
+E:\Proyecto\Review BookHub\App\FE-ReviewBookHub\src\main\java\com\ReviewBookHub\Client\UsuarioClient.java
+E:\Proyecto\Review BookHub\App\FE-ReviewBookHub\src\main\java\com\ReviewBookHub\Controller\AuthController.java
+E:\Proyecto\Review BookHub\App\FE-ReviewBookHub\src\main\java\com\ReviewBookHub\Controller\BookController.java
+E:\Proyecto\Review BookHub\App\FE-ReviewBookHub\src\main\java\com\ReviewBookHub\Controller\ResenaController.java
+E:\Proyecto\Review BookHub\App\FE-ReviewBookHub\src\main\java\com\ReviewBookHub\Controller\UsuarioController.java
+E:\Proyecto\Review BookHub\App\FE-ReviewBookHub\src\main\java\com\ReviewBookHub\Model\Auth.java
+E:\Proyecto\Review BookHub\App\FE-ReviewBookHub\src\main\java\com\ReviewBookHub\Model\Categoria.java
+E:\Proyecto\Review BookHub\App\FE-ReviewBookHub\src\main\java\com\ReviewBookHub\Model\LibroGet.java
+E:\Proyecto\Review BookHub\App\FE-ReviewBookHub\src\main\java\com\ReviewBookHub\Model\LibroPost.java
+E:\Proyecto\Review BookHub\App\FE-ReviewBookHub\src\main\java\com\ReviewBookHub\Model\Resena.java
+E:\Proyecto\Review BookHub\App\FE-ReviewBookHub\src\main\java\com\ReviewBookHub\Model\Usuario.java
+E:\Proyecto\Review BookHub\App\FE-ReviewBookHub\src\main\java\com\ReviewBookHub\Shared\Respuesta.java

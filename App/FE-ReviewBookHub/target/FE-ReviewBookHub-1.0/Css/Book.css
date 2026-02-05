@@ -1,0 +1,244 @@
+
+body{
+    overflow: hidden
+}
+
+.caja{
+    background: url(../Assets/Img/book_fondo_background.svg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin-top: 6rem;
+}
+
+.acerca_de{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 6rem;
+}
+
+.acerca_de .columna{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.acerca_de .columna .content{
+    width: 35%;
+}
+
+.acerca_de .columna .content h3{
+    font-size: 1.5rem;
+    color: var(--color-text);
+    text-transform: uppercase;
+}
+
+.acerca_de .columna .content h3 span{
+    font-size: 1rem;
+    color: var(--color-primary);
+    text-transform: uppercase;
+}
+
+.acerca_de .columna .content p{
+    font-size: 1rem;
+    color: var(--color-text);
+    padding: .5rem 2rem;
+    font-weight: bold;
+}
+
+.acerca_de .columna .content .resumen{
+    font-size: 1rem;
+    color: var(--color-text);
+    padding: .5rem 2rem;
+    font-weight: bold;
+    text-align: justify;
+    margin-right: 10rem;
+}
+
+.acerca_de .columna .content h2{
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    color: var(--color-primary);
+    text-transform: uppercase;
+}
+
+.image2 {
+    width: 30%;
+}
+
+.image2 img{
+    width: 20vw;
+    margin: 0 4rem;
+    margin-left: 2rem;
+    box-shadow: 0 .2rem .7rem var(--color-text);
+    animation: float 4.5s linear infinite;
+}
+
+.container-reseña {
+    width: 30%;
+}
+
+.card {
+    width: 260px;
+    background-color: var(--color-white);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.chat-header {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    padding: 10px;
+    font-size: smaller;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.chat-window {
+    height: 320px;
+    overflow-y: scroll;
+}
+
+.message-list {
+    list-style: none;
+    margin: 0;
+    padding: .5rem;
+}
+
+.card-message {
+    width: 100%;
+    max-width: 290px;
+    height: auto;
+    background: var(--color-degraded);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    backdrop-filter: blur(10px);
+    transition: 0.5s ease-in-out;
+    margin-bottom: .5rem;
+}
+
+.img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 50%;
+    background: var(--color-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img i {
+    font-size: x-large;
+    color: var(--color-secondary);
+}
+
+.textBox {
+    width: 70%;
+    margin-left: 10px;
+    padding: 8px 0;
+    color: var(--color-white);
+}
+
+.textContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.span {
+    font-size: 8px;
+}
+
+.h1 {
+    font-size: x-small;
+}
+
+.p {
+    font-size: x-small;
+    font-weight: lighter;
+    margin: 0;
+    margin-top: .5rem;
+    padding: .3rem 0;
+}
+
+.chat-input {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-top: 1px solid #ccc;
+}
+
+.message-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: small;    
+}
+
+.send-button {
+    border: none;
+    outline: none;
+    margin-left: 1.2rem;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 4px 12px;
+    cursor: pointer;
+}
+
+.caja .acerca_de .columna .image2 p a {
+    width: 75%;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-left: 30px;
+    margin-top: 1rem;
+    padding: 0 1rem;
+    border-radius: 5px;
+    background: var(--color-primary);
+    text-decoration: none;
+    font-size: small;
+    color: var(--color-white);
+    cursor: pointer;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
+    transition: all .3s linear;
+}
+
+.chat-window::-webkit-scrollbar {
+    width: 8px;
+}
+
+.chat-window::-webkit-scrollbar-thumb {
+    background-color: #333;
+    border-radius: 5px;
+}
+
+.chat-window::-webkit-scrollbar-thumb:hover {
+    background-color: var(--color-primary);
+}
+
+.chat-window::-webkit-scrollbar-track {
+    background-color: #eee;
+    border-radius: 5px;
+}
+
+.chat-window::-webkit-scrollbar-track:hover {
+    background-color: #ddd;
+}
+
+@keyframes float {
+    0%{
+        transform: translateY(0rem);
+    }
+    50%{
+        transform: translateY(-1.5rem);
+    }
+}

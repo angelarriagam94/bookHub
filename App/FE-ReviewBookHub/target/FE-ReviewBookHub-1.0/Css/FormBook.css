@@ -1,0 +1,163 @@
+
+.image2 {
+    width: auto;
+    height: 38rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;    
+}
+
+.image2 img {
+    width: 15vw;
+    height: auto;
+    margin: 0 5rem;
+    animation: float 4.5s linear infinite;
+    padding-bottom: 7rem;
+}
+
+section {
+    width: 70%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.caja {
+    width: 100%;
+    background: url(../Assets/Img/custom_fondo_registrar_libro_background.svg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+}
+
+.container-form {
+    max-width: 400px;
+    background-color: var(--color-white);
+    border-radius: 1rem;
+    margin: auto;
+    box-shadow: 0 5px 10px 1px rgb(0 0 0 / 30%);
+}
+
+.container-form form {
+    background: var(--color-white);
+    padding: .5rem 3rem;
+    border-radius: 1rem;
+    font-size: small;
+}
+
+.container-form form .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-form form .card .form_title {
+    text-align: center;
+    font-size: large;
+    margin: .2rem 0;
+}
+
+.container-form form .container-inputs {
+    margin-top: .8rem;
+    display: grid;
+    gap: 1rem;
+    margin-right: .5rem;
+}
+
+.form_group {
+    position: relative;
+    color: #5757577e;
+}
+
+.form_input {
+    width: 100%;
+    background: none;
+    color: var(--color-text);
+    font-size: x-small;
+    padding: .8rem .3rem;
+    padding-left: 2.3rem;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid var(--color-secondary);
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.form_input:not(:placeholder-shown) {
+    color: var(--color-text);
+}
+
+.form_input:focus+.form_label,
+.form_input:not(:placeholder-shown)+.form_label {
+    transform: translateY(-4px) scale(.7);
+    transform-origin: left top;
+    color: var(--color-primary);
+}
+
+.form_label {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 2.3rem;
+    transform: translateY(10px);
+    transition: transform .5s, color .3s;
+    font-size: small;
+}
+
+.container-form form .container-inputs .form_group i {
+    position: absolute;
+    left: 1px;
+    border-radius: 50%;
+    color: var(--color-primary);
+    font-size: small;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+button {
+    cursor: pointer;
+    background: var(--color-primary);
+    color: var(--color-white);
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 500;
+    font-size: small;
+    padding: .8rem 0;
+    border: none;
+    border-radius: .5em;
+    transition: background .5s ease;
+}
+
+button:hover {
+    background: var(--color-secondary);
+}
+
+button:active {
+    transform: scale(0.99);
+}
+
+button i {
+    margin-right: .5rem;
+}
+
+input[type=file]::-webkit-file-upload-button {
+    background: white;
+    border: none;
+    border-right: 1px solid var(--color-primary);
+    cursor: pointer;
+}
+
+.container-inputs-form {
+    display: flex;
+}
+
+
+@keyframes float {
+    0% {
+        transform: translateY(0rem);
+    }
+
+    50% {
+        transform: translateY(-1.5rem);
+    }
+}
